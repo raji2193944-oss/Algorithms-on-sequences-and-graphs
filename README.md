@@ -1,4 +1,3 @@
-# Algorithms-on-sequences-and-graphs
 # CMN Coding Assignment 1 – algorithms on sequences and graphs
 
 Python 3.9+ (developed on 3.13). The algorithmic core of every task uses the
