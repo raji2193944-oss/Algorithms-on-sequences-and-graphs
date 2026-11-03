@@ -1,0 +1,26 @@
+Source,Target,ATP Cost
+Glucose,Glucose-6-Phosphate,1
+Glucose-6-Phosphate,Fructose-6-Phosphate,0
+Fructose-6-Phosphate,"Fructose-1,6-Bisphosphate",1
+"Fructose-1,6-Bisphosphate",Glyceraldehyde-3-Phosphate,0
+"Fructose-1,6-Bisphosphate",Dihydroxyacetone Phosphate,0
+Glyceraldehyde-3-Phosphate,"1,3-Bisphosphoglycerate",0
+"1,3-Bisphosphoglycerate",3-Phosphoglycerate,-1
+3-Phosphoglycerate,2-Phosphoglycerate,0
+2-Phosphoglycerate,Phosphoenolpyruvate,0
+Phosphoenolpyruvate,Pyruvate,-1
+Pyruvate,Lactate,0
+Pyruvate,Acetyl-CoA,0
+Acetyl-CoA,Citrate,0
+Citrate,Isocitrate,0
+Isocitrate,α-Ketoglutarate,0
+α-Ketoglutarate,Succinyl-CoA,0
+Succinyl-CoA,Succinate,-1
+Succinate,Fumarate,0
+Fumarate,Malate,0
+Malate,Oxaloacetate,0
+Oxaloacetate,Phosphoenolpyruvate,1
+Oxaloacetate,Aspartate,0
+α-Ketoglutarate,Glutamate,0
+3-Phosphoglycerate,Serine,0
+Pyruvate,Alanine,0

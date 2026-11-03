@@ -1,0 +1,5 @@
+# Algorithms (common_substring.py, palindromes.py, shortest_paths.py) use only the standard library.
+matplotlib>=3.5   # plots (plot_*.py)
+numpy>=1.21       # log-log fits in plot_shortest_paths.py
+networkx>=2.8     # ONLY to check answers (validate_shortest_paths.py); never in the algorithms
+# pytest is optional: every test file also runs with plain `python`

@@ -1,0 +1,12 @@
+=== Dijkstra from Glucose (NOT trustworthy here) ===
+  Pyruvate: 0
+  Oxaloacetate: -1
+  Serine: 1
+  (three negative edges exist, so Dijkstra's assumption fails)
+
+=== Bellman-Ford from Glucose (correct) ===
+  Pyruvate: -inf (reachable from a negative cycle)
+  Oxaloacetate: -inf (reachable from a negative cycle)
+  Serine: 1
+  reachable negative cycle (weight -1):
+    Oxaloacetate -> Phosphoenolpyruvate -> Pyruvate -> Acetyl-CoA -> Citrate -> Isocitrate -> α-Ketoglutarate -> Succinyl-CoA -> Succinate -> Fumarate -> Malate -> Oxaloacetate
